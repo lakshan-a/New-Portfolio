@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Lakshan Rashmika</title>
+    <meta name="description" content="Lakshan Rashmika">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assests/css/normalize.css">
+    <link rel="icon" type="image/png" href="assests/images/logo/logo.png"/>
+
+
+    <!-----------------------------------AOS----------------------------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-----------------------------------Bootstrap----------------------------------->
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.css">
+    <script src="assests/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assests/css/styles.css">
+    <script src="assests/js/js.js"></script>
+    <script src="assests/js/cdnjs.cloudflare.com_ajax_libs_jquery_2.1.3_jquery.min.js"></script>
+    <link rel="stylesheet" href="assests/font/fontawesome-free-6.4.2-web/css/all.css">
+
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        <a class="navbar-brand navbar-logo" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-home"></i>Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-address-book"></i>About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Expertise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-file-shield"></i>Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-phone"></i>Contact</a>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<script>
+    // ---------Responsive-navbar-active-animation-----------
+    function test(){
+        var tabsNewAnim = $('#navbarSupportedContent');
+        var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
+        var activeItemNewAnim = tabsNewAnim.find('.active');
+        var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+        var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+        var itemPosNewAnimTop = activeItemNewAnim.position();
+        var itemPosNewAnimLeft = activeItemNewAnim.position();
+        $(".hori-selector").css({
+            "top":itemPosNewAnimTop.top + "px",
+            "left":itemPosNewAnimLeft.left + "px",
+            "height": activeWidthNewAnimHeight + "px",
+            "width": activeWidthNewAnimWidth + "px"
+        });
+        $("#navbarSupportedContent").on("click","li",function(e){
+            $('#navbarSupportedContent ul li').removeClass("active");
+            $(this).addClass('active');
+            var activeWidthNewAnimHeight = $(this).innerHeight();
+            var activeWidthNewAnimWidth = $(this).innerWidth();
+            var itemPosNewAnimTop = $(this).position();
+            var itemPosNewAnimLeft = $(this).position();
+            $(".hori-selector").css({
+                "top":itemPosNewAnimTop.top + "px",
+                "left":itemPosNewAnimLeft.left + "px",
+                "height": activeWidthNewAnimHeight + "px",
+                "width": activeWidthNewAnimWidth + "px"
+            });
+        });
+    }
+    $(document).ready(function(){
+        setTimeout(function(){ test(); });
+    });
+    $(window).on('resize', function(){
+        setTimeout(function(){ test(); }, 500);
+    });
+    $(".navbar-toggler").click(function(){
+        $(".navbar-collapse").slideToggle(300);
+        setTimeout(function(){ test(); });
+    });
+
+
+
+    // --------------add active class-on another-page move----------
+    jQuery(document).ready(function($){
+// Get current path and find target link
+        var path = window.location.pathname.split("/").pop();
+
+// Account for home page with empty path
+        if ( path == '' ) {
+            path = 'index.html';
+        }
+
+        var target = $('#navbarSupportedContent ul li a[href="'+path+'"]');
+// Add active class to target link
+        target.parent().addClass('active');
+    });
+
+
+
+
+    // Add active class on another page linked
+    // ==========================================
+    // $(window).on('load',function () {
+    //     var current = location.pathname;
+    //     console.log(current);
+    //     $('#navbarSupportedContent ul li a').each(function(){
+    //         var $this = $(this);
+    //         // if the current path is like this link, make it active
+    //         if($this.attr('href').indexOf(current) !== -1){
+    //             $this.parent().addClass('active');
+    //             $this.parents('.menu-submenu').addClass('show-dropdown');
+    //             $this.parents('.menu-submenu').parent().addClass('active');
+    //         }else{
+    //             $this.parent().removeClass('active');
+    //         }
+    //     })
+    // });
+
+</script>
+
+</body>
+</html>
