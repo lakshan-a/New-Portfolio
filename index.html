@@ -3,11 +3,13 @@
 
 <head>
 
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
     <title>Lakshan Rashmika</title>
-    <meta name="description" content="Lakshan Rashmika">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assests/css/normalize.css">
-    <link rel="icon" type="image/png" href="assests/images/logo/logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
 
 
     <!-----------------------------------AOS----------------------------------->
@@ -26,122 +28,156 @@
 
 <body>
 
-<header>
-    <nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-home"></i>Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-address-book"></i>About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Expertise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-file-shield"></i>Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-phone"></i>Contact</a>
-                </li>
-                <li class="nav-item">
-                </li>
-            </ul>
+<!-- lodaer  -->
+<div class="loader-wrap">
+    <div class="loader-item">
+        <div class="cd-loader-layer" data-frame="25">
+            <div class="loader-layer"></div>
         </div>
-    </nav>
-</header>
-
-
-<script>
-    // ---------Responsive-navbar-active-animation-----------
-    function test(){
-        var tabsNewAnim = $('#navbarSupportedContent');
-        var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
-        var activeItemNewAnim = tabsNewAnim.find('.active');
-        var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
-        var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
-        var itemPosNewAnimTop = activeItemNewAnim.position();
-        var itemPosNewAnimLeft = activeItemNewAnim.position();
-        $(".hori-selector").css({
-            "top":itemPosNewAnimTop.top + "px",
-            "left":itemPosNewAnimLeft.left + "px",
-            "height": activeWidthNewAnimHeight + "px",
-            "width": activeWidthNewAnimWidth + "px"
-        });
-        $("#navbarSupportedContent").on("click","li",function(e){
-            $('#navbarSupportedContent ul li').removeClass("active");
-            $(this).addClass('active');
-            var activeWidthNewAnimHeight = $(this).innerHeight();
-            var activeWidthNewAnimWidth = $(this).innerWidth();
-            var itemPosNewAnimTop = $(this).position();
-            var itemPosNewAnimLeft = $(this).position();
-            $(".hori-selector").css({
-                "top":itemPosNewAnimTop.top + "px",
-                "left":itemPosNewAnimLeft.left + "px",
-                "height": activeWidthNewAnimHeight + "px",
-                "width": activeWidthNewAnimWidth + "px"
-            });
-        });
-    }
-    $(document).ready(function(){
-        setTimeout(function(){ test(); });
-    });
-    $(window).on('resize', function(){
-        setTimeout(function(){ test(); }, 500);
-    });
-    $(".navbar-toggler").click(function(){
-        $(".navbar-collapse").slideToggle(300);
-        setTimeout(function(){ test(); });
-    });
+        <span class="loader"></span>
+    </div>
+</div>
+<!-- loader end  -->
+<!-- main start  -->
+<div id="main">
+    <!-- header  -->
+    <header class="main-header">
+        <!-- header-top  -->
+        <div class="header-top">
+            <div class="container">
+                <!--        <div class="lang-wrap"><a href="#" class="act-lang">En</a><span>/</span><a href="#">Fr</a></div>-->
+                <div class="header-top_contacts"><a href="#"><span>Call now:</span> +94713988628</a><a href="#"><span>Write :</span> lakshanrashmika16302@gmail.com</a></div>
+            </div>
+        </div>
+        <!--header-top end -->
+        <!-- header-inner -->
+        <div class="header-inner  fl-wrap">
+            <div class="container">
+                <div class="header-container fl-wrap">
+                    <a href="index.html" class="logo-holder"><img src="images/logo.png" alt=""></a>
 
 
 
-    // --------------add active class-on another-page move----------
-    jQuery(document).ready(function($){
-// Get current path and find target link
-        var path = window.location.pathname.split("/").pop();
-
-// Account for home page with empty path
-        if ( path == '' ) {
-            path = 'index.html';
-        }
-
-        var target = $('#navbarSupportedContent ul li a[href="'+path+'"]');
-// Add active class to target link
-        target.parent().addClass('active');
-    });
-
-
-
-
-    // Add active class on another page linked
-    // ==========================================
-    // $(window).on('load',function () {
-    //     var current = location.pathname;
-    //     console.log(current);
-    //     $('#navbarSupportedContent ul li a').each(function(){
-    //         var $this = $(this);
-    //         // if the current path is like this link, make it active
-    //         if($this.attr('href').indexOf(current) !== -1){
-    //             $this.parent().addClass('active');
-    //             $this.parents('.menu-submenu').addClass('show-dropdown');
-    //             $this.parents('.menu-submenu').parent().addClass('active');
-    //         }else{
-    //             $this.parent().removeClass('active');
-    //         }
-    //     })
-    // });
-
-</script>
+                    <div class="show-reserv_button show-rb"><span>Contact</span> <i class="fal fa-phone"></i></div>
+                    <div class="show-share-btn showshare htact"><i class="fal fa-share"></i> <span class="header-tooltip">Share</span></div>
+                    <!--          <div class="show-cart sc_btn htact"><i class="fal fa-shopping-bag"></i><span class="show-cart_count">3</span><span class="header-tooltip">Your Cart</span></div>-->
+                    <!-- nav-button-wrap-->
+                    <div class="nav-button-wrap">
+                        <div class="nav-button">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <!-- nav-button-wrap end-->
+                    <!--  navigation -->
+                    <div class="nav-holder main-menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="act-link">Home</a>
+                                    <!--second level -->
+                                    <!--                  <ul>-->
+                                    <!--                    <li><a href="index.html">Parallax Image</a></li>-->
+                                    <!--                    <li><a href="index2.html">Slider</a></li>-->
+                                    <!--                    <li><a href="index3.html">Carousel</a></li>-->
+                                    <!--                    <li><a href="index4.html">Slideshow</a></li>-->
+                                    <!--                    <li><a href="index5.html">Video</a></li>-->
+                                    <!--                    <li><a href="onepage.html">One Page</a></li>-->
+                                    <!--                  </ul>-->
+                                    <!--second level end-->
+                                </li>
+                                <!--                <li>-->
+                                <!--                  <a href="#">Menu<i class="fas fa-caret-down"></i></a>-->
+                                <!--                  &lt;!&ndash;second level &ndash;&gt;-->
+                                <!--                  <ul>-->
+                                <!--                    <li><a href="menu.html">Menu 1</a></li>-->
+                                <!--                    <li><a href="menu2.html">Menu 2</a></li>-->
+                                <!--                    <li><a href="menu3.html">Menu 3</a></li>-->
+                                <!--                  </ul>-->
+                                <!--                  &lt;!&ndash;second level end&ndash;&gt;-->
+                                <!--                </li>-->
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Expertise</a></li>
+                                <li><a href="blog.html">Projects</a></li>
+                                <li><a href="blog.html">Education</a></li>
+                                <!--                <li>-->
+                                <!--                  <a href="#">Pages<i class="fas fa-caret-down"></i></a>-->
+                                <!--                  &lt;!&ndash;second level &ndash;&gt;-->
+                                <!--                  <ul>-->
+                                <!--                    <li><a href="shop.html">Shop</a></li>-->
+                                <!--                    <li><a href="product-single.html">Product Single</a></li>-->
+                                <!--                    <li><a href="cart.html">Cart</a></li>-->
+                                <!--                    <li><a href="gallery.html">Gallery</a></li>-->
+                                <!--                    <li><a href="blog-single.html">Blog single</a></li>-->
+                                <!--                    <li><a href="404.html">404</a></li>-->
+                                <!--                    <li><a href="coming-soon.html">Coming Soon</a></li>-->
+                                <!--                  </ul>-->
+                                <!--                  &lt;!&ndash;second level end&ndash;&gt;-->
+                                <!--                </li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- navigation  end -->
+                    <!-- header-cart_wrap  -->
+                    <!--          <div class="header-cart_wrap novis_cart">-->
+                    <!--            <div class="header-cart_title">Your Cart <span>4 items</span></div>-->
+                    <!--            <div class="header-cart_wrap_container fl-wrap">-->
+                    <!--              <div class="box-widget-content">-->
+                    <!--                <div class="widget-posts fl-wrap">-->
+                    <!--                  <ol>-->
+                    <!--                    <li class="clearfix">-->
+                    <!--                      <a href="#"  class="widget-posts-img"><img src="images/menu/1.jpg" class="respimg" alt=""></a>-->
+                    <!--                      <div class="widget-posts-descr">-->
+                    <!--                        <a href="#" title="">Grilled Steaks</a>-->
+                    <!--                        <div class="widget-posts-descr_calc clearfix">1 <span>x</span> $45</div>-->
+                    <!--                      </div>-->
+                    <!--                      <div class="clear-cart_button"><i class="fal fa-times"></i></div>-->
+                    <!--                    </li>-->
+                    <!--                    <li class="clearfix">-->
+                    <!--                      <a href="#"  class="widget-posts-img"><img src="images/menu/2.jpg" class="respimg" alt=""></a>-->
+                    <!--                      <div class="widget-posts-descr">-->
+                    <!--                        <a href="#" title="">Cripsy Lobster & Shrimp Bites</a>-->
+                    <!--                        <div class="widget-posts-descr_calc clearfix">2 <span>x</span> $22</div>-->
+                    <!--                      </div>-->
+                    <!--                      <div class="clear-cart_button"><i class="fal fa-times"></i></div>-->
+                    <!--                    </li>-->
+                    <!--                    <li class="clearfix">-->
+                    <!--                      <a href="#"  class="widget-posts-img"><img src="images/menu/3.jpg" class="respimg" alt=""></a>-->
+                    <!--                      <div class="widget-posts-descr">-->
+                    <!--                        <a href="#" title="">Chicken tortilla soup</a>-->
+                    <!--                        <div class="widget-posts-descr_calc clearfix">1 <span>x</span> $37</div>-->
+                    <!--                      </div>-->
+                    <!--                      <div class="clear-cart_button"><i class="fal fa-times"></i></div>-->
+                    <!--                    </li>-->
+                    <!--                  </ol>-->
+                    <!--                </div>-->
+                    <!--              </div>-->
+                    <!--            </div>-->
+                    <!--            <div class="header-cart_wrap_total fl-wrap">-->
+                    <!--              <div class="header-cart_wrap_total_item">Subtotal : <span>$147</span></div>-->
+                    <!--            </div>-->
+                    <!--            <div class="header-cart_wrap_footer fl-wrap">-->
+                    <!--              <a href="cart.html"> View Cart</a>-->
+                    <!--              <a href="checkout.html">  Checkout</a>-->
+                    <!--            </div>-->
+                    <!--          </div>-->
+                    <!-- header-cart_wrap end  -->
+                    <!-- share-wrapper -->
+                    <div class="share-wrapper isShare">
+                        <div class="share-container fl-wrap"></div>
+                    </div>
+                    <!-- share-wrapper-end -->
+                </div>
+            </div>
+        </div>
+        <!-- header-inner end  -->
+    </header>
+    <!--header end -->
+    <!-- cursor-->
+    <div class="element">
+        <div class="element-item"></div>
+    </div>
+    <!-- cursor end-->
+</div>
 
 </body>
 </html>

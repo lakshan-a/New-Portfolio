@@ -166,3 +166,11 @@ i {
         left: -25px;
     }
 }
+
+body{
+    background-color: #2d2d32;
+}
+
+body>section>div{
+
+}
