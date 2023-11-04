@@ -81,7 +81,7 @@ body {
 	width:40px;
 	height:40px;
 	margin:-20px 0 0 -20px;
-	border: 2px solid rgba(255, 255, 255, 0.2);
+	border: 2px solid rgb(193, 157, 96);
 	border-top: 2px  solid;
 	border-radius: 50%;
 	animation: spin2 0.5s infinite linear;
@@ -173,7 +173,7 @@ blockquote {
 	padding: 10px 20px;
 	margin: 0 0 20px;
 	font-size: 17.5px;
-	border-left: 15px solid #eee;
+	border-left: 15px solid rgba(255, 255, 255, 0.08);
 	position: relative;
 }
 blockquote:before {
@@ -320,18 +320,18 @@ blockquote p {
 	padding-right:10px;
 }
 .header-container {
-	background:#fff;
+	background: #292929;
 	height:70px;
-	border:1px solid #eee;
+	border:1px solid rgba(255, 255, 255, 0.08);
 	border-top:none;
 }
 .lang-wrap {
 	float:left;
-	color:#fff;
+	color: #292929;
 }
 .lang-wrap a  , .lang-wrap span{
 	font-family: 'Playfair Display', cursive;
-	color:#fff;
+	color: rgba(255, 255, 255, 0.08);
 	font-weight:600;
 	margin-right:10px;
 	font-size:13px;
@@ -342,14 +342,14 @@ blockquote p {
 .show-cart , .show-share-btn  {
 	float:right;
 	font-size:22px;
-	color:#666;
+	color: #ffffff;
 	cursor:pointer;
 	position:relative;
 	width:70px;
 	height:70px;
 	line-height:70px;
 	margin-left:24px;
-	border-left:1px solid #eee;
+	border-left:1px solid rgba(255, 255, 255, 0.08);
 	text-align:center;
 	box-sizing:border-box;
 }
@@ -364,14 +364,14 @@ blockquote p {
 	width:140px;
 	height:50px;
 	line-height:50px;
-	background:#fff;
+	background: #292929;
 	font-weight:600;
 	transition: all .3s ease-in-out;
 	font-family: 'Playfair Display', cursive;
 	font-size:12px;
 	opacity:0;
 	visibility:hidden;
-	border:1px solid #eee;
+	border:1px solid rgba(255, 255, 255, 0.08);
 	border-top:none;
 }
 .htact:hover .header-tooltip {
@@ -408,7 +408,7 @@ blockquote p {
 .show-reserv_button {
 	float:right;
 	position:relative;
-	color: #666;
+	color: #ffffff;
 	font-size: 10px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -416,7 +416,7 @@ blockquote p {
 	padding:0 20px;
 	height:70px;
 	line-height:70px;
-	border-left:1px solid #eee;
+	border-left:1px solid rgba(255, 255, 255, 0.08);
 	cursor:pointer;
 	transition: all .2s ease-in-out;
 }
@@ -615,7 +615,7 @@ blockquote p {
 	margin-top:1px;
 	background:#fff;
 	padding:0 20px;
-	background:#f9f9f9;
+	background: #212121;
 	overflow:hidden;
 	height:0;
 	line-height:110px;
@@ -627,7 +627,7 @@ blockquote p {
 	left:1px;
 	bottom:1px;
 	right:1px;
-	border:1px solid #eee;
+	border:1px solid rgba(255, 255, 255, 0.08);
 	z-index:1;
 	border-top:none;
 }
@@ -740,7 +740,7 @@ blockquote p {
 .nav-holder nav li a {
 	float: left;
 	padding: 5px 11px;
-	color: #222;
+	color: #ffffff;
 	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -4125,7 +4125,7 @@ nav li ul a:before , nav li ul a:after {
 	pointer-events: none;
 	opacity:1;
 	box-sizing:border-box;
-	border:1px solid;
+	border:1px solid #C19D60FF;
 	transform: scale(1.0);
 }
 .element-item:before {
@@ -4136,14 +4136,14 @@ nav li ul a:before , nav li ul a:after {
 	width:6px;
 	height:6px;
 	margin:-3px 0 0 -3px;
-	background:#000;
+	background: #ffffff;
 	border-radius:100%;
 	z-index:-1;
 	transform: scale(1.0);
 	transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
 }
 .element-item.white_blur:before {
-	background:#fff;
+	background: #c19d60;
 }
 .element-item.elem_hover:before {
 	opacity:0.2;

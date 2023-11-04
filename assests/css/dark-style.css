@@ -9,7 +9,7 @@
 	background:#212121;
 }
 .nav-holder nav li a  , .show-cart, .show-share-btn  , .header-tooltip , .show-reserv_button , .share-container a , .header-cart_title , .box-widget-content .widget-posts-descr a    , .header-cart_wrap_total_item , .section-title h2   , .btn.border-btn , .team-info h3 , .align-text-block h4  , .testimonilas-text h3 , .main-sidebar-widget h3 , .post.fw-post h2 a , .pr-tags li a  , .pr-tags span , .post-counter , .recent-post-content h4 a  , .category-widget .cat-item li a , .custom-form textarea, .custom-form input[type="text"], .custom-form input[type=email], .custom-form input[type=password] , .custom-form input::-webkit-input-placeholder , .custom-form textarea::-webkit-input-placeholder  , .search-widget input.search-inpt-item  , .about-widget h4 , .author-content h5 a  , .comments-title , .item-related h3 a  , .nice-select span.current , .close-reservation-modal:hover , h4.cart-title , .checkout-table  , .coupon-holder input , .contact-details li a , .gallery-filters a , .single-menu .hero-menu_header ul li a , .single-menu .hero-menu-item h6 , .add_cart , .grid-item-details h3 , .grid-item_price .add_cart , .post.fw-post h2  , .menu-single-preice , .menu-single_rating span , .leave-rating-title , .shop-header h4   , .grid-item-details h3 a  , .error_message , #success_page{
-	color:#fff;
+	color: #ffffff;
 }
 /*p , .testimonilas-text p , .blog-title-opt li a , .blog-text p   {*/
 /*	color:rgba(255,255,255,0.8);*/
