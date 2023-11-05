@@ -3173,144 +3173,144 @@ section.parallax-section.hero-section .section-title h2 {
 /*	border-bottom:1px solid rgba(255,255,255,0.1);*/
 /*	text-align:left;*/
 /*}*/
-/*!*------Forms------------------------------------------------*!*/
-/*.bot-element  {*/
-/*	transform: translateY(50px);*/
-/*	opacity: 0;*/
-/*}*/
-/*.reservation-modal-wrap  , .reserv-overlay {*/
-/*	position:fixed;*/
-/*	z-index:200;*/
-/*	top:0;*/
-/*	left:0;*/
-/*	right:0;*/
-/*	bottom:0;*/
-/*	-webkit-transform: translate3d(0, 0, 0);*/
-/*	display:none;*/
-/*}*/
-/*.reservation-modal-wrap {*/
-/*	overflow:auto;*/
-/*}*/
-/*.reserv-overlay {*/
-/*	z-index:1;*/
-/*	opacity:0.9;*/
-/*	display:block;*/
-/*}*/
-/*.reservation-modal-container {*/
-/*	max-width: 756px;*/
-/*	margin: 0 auto;*/
-/*	position: relative;*/
-/*	z-index: 5;*/
-/*	top:15%;*/
-/*}*/
-/*.reservation-modal-item {*/
-/*	background:#fff;*/
-/*	padding:60px;*/
-/*}*/
-/*.reservation-bg {*/
-/*	position:absolute;*/
-/*	top:28px;*/
-/*	left:28px;*/
-/*	bottom:28px;*/
-/*	right:28px;*/
-/*	background:#fff url(../images/bg/dec/reservation-bg.png) no-repeat center;*/
-/*	opacity:0.2;*/
-/*	z-index:1;*/
-/*}*/
-/*.reservation-modal-item:after {*/
-/*	content:'';*/
-/*	position:absolute;*/
-/*	top:28px;*/
-/*	left:28px;*/
-/*	bottom:28px;*/
-/*	right:28px;*/
-/*	border:1px   dotted #ccc;*/
-/*	z-index:2;*/
-/*	box-shadow: 0px 0px 0px 30px #f9f9f9;*/
-/*}*/
-/*.reservation-wrap {*/
-/*	position:relative;*/
-/*	z-index:3 ;*/
-/*}*/
-/*.close-reservation-modal {*/
-/*	position:absolute;*/
-/*	right:10px;*/
-/*	top:10px;*/
-/*	cursor:pointer;*/
-/*	font-size:16px;*/
-/*	width:40px;*/
-/*	height:40px;*/
-/*	line-height:40px;*/
-/*	border:1px  solid #eee;*/
-/*	background:#fff;*/
-/*	z-index:3;*/
-/*}*/
-/*.close-reservation-modal:hover {*/
-/*	color:#000;*/
-/*	background:#f2f2f2;*/
-/*}*/
-/*.custom-form textarea,*/
-/*.custom-form input[type="text"],*/
-/*.custom-form input[type=email],*/
-/*.custom-form input[type=password] {*/
-/*	float: left;*/
-/*	border: none;*/
-/*	border: 1px solid #e1e1e1;*/
-/*	background: #f9f9f9;*/
-/*	width: 100%;*/
-/*	padding: 15px 20px;*/
-/*	color: #000;*/
-/*	font-size: 12px;*/
-/*	-webkit-appearance: none;*/
-/*	font-family: 'Poppins', sans-serif;*/
-/*}*/
-/*.custom-form input::-webkit-input-placeholder,*/
-/*.custom-form textarea::-webkit-input-placeholder {*/
-/*	color: #666;*/
-/*	font-weight: 500;*/
-/*	font-size: 12px;*/
-/*	position: relative;*/
-/*	font-family: 'Poppins', sans-serif;*/
-/*}*/
-/*.custom-form input:-moz-placeholder,*/
-/*.custom-form textarea:-moz-placeholder {*/
-/*	color: #666;*/
-/*	font-weight: 500;*/
-/*	font-size: 12px;*/
-/*	font-family: 'Poppins', sans-serif;*/
-/*}*/
-/*.custom-form textarea {*/
-/*	min-height: 80px;*/
-/*	resize: vertical ;*/
-/*	padding: 15px 20px;*/
-/*	-webkit-appearance: none;*/
-/*	border: 1px solid #e1e1e1;*/
-/*}*/
-/*.custom-form input {*/
-/*	margin-bottom: 20px;*/
-/*}*/
-/*.custom-form .btn {*/
-/*	border:none;*/
-/*	-webkit-appearance: none;*/
-/*	cursor:pointer;*/
-/*	margin-top:40px;*/
-/*}*/
-/*.custom-form  textarea:focus , .custom-form input[type="text"]:focus  , .custom-form  input[type=email]:focus  , .custom-form  input[type=password]:focus   {*/
-/*	background:#fff;*/
-/*	box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);*/
-/*}*/
-/*.nice-select{*/
-/*	font-size:12px;*/
-/*	font-weight:500;*/
-/*	height:48px;*/
-/*	line-height:48px;*/
-/*}*/
-/*.nice-select .option.focus,.nice-select .option.selected.focus {*/
-/*	color:#fff;*/
-/*}*/
-/*.daterangepicker .calendar-table td, .daterangepicker .calendar-table th {*/
-/*	border-radius:0;*/
-/*}*/
+/*------Forms------------------------------------------------*/
+.bot-element  {
+	transform: translateY(50px);
+	opacity: 0;
+}
+.reservation-modal-wrap  , .reserv-overlay {
+	position:fixed;
+	z-index:200;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	-webkit-transform: translate3d(0, 0, 0);
+	display:none;
+}
+.reservation-modal-wrap {
+	overflow:auto;
+}
+.reserv-overlay {
+	z-index:1;
+	opacity:0.9;
+	display:block;
+}
+.reservation-modal-container {
+	max-width: 756px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 5;
+	top:15%;
+}
+.reservation-modal-item {
+	background:#fff;
+	padding:60px;
+}
+.reservation-bg {
+	position:absolute;
+	top:28px;
+	left:28px;
+	bottom:28px;
+	right:28px;
+	background:#fff url(../images/bg/dec/reservation-bg.png) no-repeat center;
+	opacity:0.2;
+	z-index:1;
+}
+.reservation-modal-item:after {
+	content:'';
+	position:absolute;
+	top:28px;
+	left:28px;
+	bottom:28px;
+	right:28px;
+	border:1px   dotted #ccc;
+	z-index:2;
+	box-shadow: 0px 0px 0px 30px #f9f9f9;
+}
+.reservation-wrap {
+	position:relative;
+	z-index:3 ;
+}
+.close-reservation-modal {
+	position:absolute;
+	right:10px;
+	top:10px;
+	cursor:pointer;
+	font-size:16px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	border:1px  solid #eee;
+	background:#fff;
+	z-index:3;
+}
+.close-reservation-modal:hover {
+	color:#000;
+	background:#f2f2f2;
+}
+.custom-form textarea,
+.custom-form input[type="text"],
+.custom-form input[type=email],
+.custom-form input[type=password] {
+	float: left;
+	border: none;
+	border: 1px solid #e1e1e1;
+	background: #f9f9f9;
+	width: 100%;
+	padding: 15px 20px;
+	color: #000;
+	font-size: 12px;
+	-webkit-appearance: none;
+	font-family: 'Poppins', sans-serif;
+}
+.custom-form input::-webkit-input-placeholder,
+.custom-form textarea::-webkit-input-placeholder {
+	color: #666;
+	font-weight: 500;
+	font-size: 12px;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+}
+.custom-form input:-moz-placeholder,
+.custom-form textarea:-moz-placeholder {
+	color: #666;
+	font-weight: 500;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+.custom-form textarea {
+	min-height: 80px;
+	resize: vertical ;
+	padding: 15px 20px;
+	-webkit-appearance: none;
+	border: 1px solid #e1e1e1;
+}
+.custom-form input {
+	margin-bottom: 20px;
+}
+.custom-form .btn {
+	border:none;
+	-webkit-appearance: none;
+	cursor:pointer;
+	margin-top:40px;
+}
+.custom-form  textarea:focus , .custom-form input[type="text"]:focus  , .custom-form  input[type=email]:focus  , .custom-form  input[type=password]:focus   {
+	background:#fff;
+	box-shadow: 0px 10px 14px 0px rgba(12, 0, 46, 0.06);
+}
+.nice-select{
+	font-size:12px;
+	font-weight:500;
+	height:48px;
+	line-height:48px;
+}
+.nice-select .option.focus,.nice-select .option.selected.focus {
+	color:#fff;
+}
+.daterangepicker .calendar-table td, .daterangepicker .calendar-table th {
+	border-radius:0;
+}
 /*!*------map / contacts------------------------------------------------*!*/
 /*.map-container {*/
 /*	float:left;*/
