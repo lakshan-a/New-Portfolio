@@ -1249,12 +1249,12 @@ footer.fixed-footer:before {
 }
 .brush-dec {
 	bottom:0;
-	background:url(../images/bg/brush-dec.png);
+	background:url(../images/brush-dec.png);
 }
 .brush-dec2 {
 	top:-2px;
 	height:50px;
-	background:url(../images/bg/brush-dec_2.png);
+	background:url(../images/brush-dec_2.png);
 }
 .brush-dec2.brush-dec_bottom {
 	top:100%;
