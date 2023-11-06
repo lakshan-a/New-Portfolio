@@ -320,9 +320,9 @@ blockquote p {
 	padding-right:10px;
 }
 .header-container {
-	background:#fff;
+	background:#292929;
 	height:70px;
-	border:1px solid #eee;
+	border:1px solid rgba(255, 255, 255, 0.2);
 	border-top:none;
 }
 .lang-wrap {
@@ -740,7 +740,7 @@ blockquote p {
 .nav-holder nav li a {
 	float: left;
 	padding: 5px 11px;
-	color: #222;
+	color: #ffffff;
 	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
