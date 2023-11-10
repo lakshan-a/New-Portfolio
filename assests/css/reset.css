@@ -11,6 +11,6 @@ blockquote, q { quotes: none;}
 :focus { outline: 0;}
 table { border-collapse: collapse; border-spacing: 0;}
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
-a{text-decoration:none; position:relative; color:#000;}
+a{text-decoration:none; position:relative; color: #fac921;}
 audio,video,canvas {max-width: 100%;}
  
