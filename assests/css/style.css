@@ -1004,9 +1004,9 @@ footer.fixed-footer:before {
 .btn.border-btn {
 	background:#fff;
 	border:1px solid;
-	color:#000;
+	color: #000000;
 	font-weight:700;
-	background:#f9f9f9;
+	background: #fac921;
 }
 /*--------------hero--------------------------------------*/
 .hero-wrap {
