@@ -166,39 +166,39 @@ function initRestabook() {
         $(b).fadeIn(1500);
         menuDotsdec();
     });
-    // // scroll animation ------------------
-    // $(window).on("scroll", function (a) {
-    //     if ($(this).scrollTop() > 150) {
-    //         $(".to-top").fadeIn(500);
-    //     } else {
-    //         $(".to-top").fadeOut(500)
-    //     }
-    // });
-    // //   scroll to------------------
-    // $(".custom-scroll-link").on("click", function () {
-    //     var a = 20;
-    //     if (location.pathname.replace(/^\//, "") === this.pathname.replace(/^\//, "") || location.hostname === this.hostname) {
-    //         var b = $(this.hash);
-    //         b = b.length ? b : $("[name=" + this.hash.slice(1) + "]");
-    //         if (b.length) {
-    //             $("html,body").animate({
-    //                 scrollTop: b.offset().top - a
-    //             }, {
-    //                 queue: false,
-    //                 duration: 1200,
-    //                 easing: "easeInOutExpo"
-    //             });
-    //             return false;
-    //         }
-    //     }
-    // });
-    // $(".to-top").on("click", function (a) {
-    //     a.preventDefault();
-    //     $("html, body").animate({
-    //         scrollTop: 0
-    //     }, 800);
-    //     return false;
-    // });
+    // scroll animation ------------------
+    $(window).on("scroll", function (a) {
+        if ($(this).scrollTop() > 150) {
+            $(".to-top").fadeIn(500);
+        } else {
+            $(".to-top").fadeOut(500)
+        }
+    });
+    //   scroll to------------------
+    $(".custom-scroll-link").on("click", function () {
+        var a = 20;
+        if (location.pathname.replace(/^\//, "") === this.pathname.replace(/^\//, "") || location.hostname === this.hostname) {
+            var b = $(this.hash);
+            b = b.length ? b : $("[name=" + this.hash.slice(1) + "]");
+            if (b.length) {
+                $("html,body").animate({
+                    scrollTop: b.offset().top - a
+                }, {
+                    queue: false,
+                    duration: 1200,
+                    easing: "easeInOutExpo"
+                });
+                return false;
+            }
+        }
+    });
+    $(".to-top").on("click", function (a) {
+        a.preventDefault();
+        $("html, body").animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
     //   menu tabs------------------
     var transitionLayer2 = $('.cd-tabs-layer'),
         transitionBackground2 = transitionLayer2.children(),
