@@ -3661,15 +3661,15 @@ section.parallax-section.hero-section .section-title h2 {
 .main-sidebar-widget h3 {
 	float: left;
 	width: 100%;
-	border: 1px solid #eee;
+	border: 1px solid #666;
 	padding: 15px 10px;
 	font-size: 18px;
 	font-family: 'Playfair Display', cursive;
 	margin-bottom: 20px;
 	font-weight: 600;
 	position: relative;
-	background: #f9f9f9;
-	color:#292929;
+	background: #333;
+	color: #fff;
 }
 /*.search-widget {*/
 /*	background:#f9f9f9;*/
@@ -3798,7 +3798,7 @@ section.parallax-section.hero-section .section-title h2 {
 .social-widget li a {
 	width:40px;
 	height:40px;
-	color:rgba(255,255,255,0.81);
+	color: rgb(250, 201, 33);
 	background:#292929;
 	line-height:40px;
 	float:left;
