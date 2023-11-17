@@ -232,6 +232,9 @@
 //
 // }
 // var single_map = document.getElementById('singleMap');
-// if (typeof (single_map) != 'undefined' && single_map != null) {
-//     google.maps.event.addDomListener(window, 'load', singleMap);
-// }
+
+
+
+if (typeof (single_map) != 'undefined' && single_map != null) {
+    google.maps.event.addDomListener(window, 'load', singleMap);
+}
