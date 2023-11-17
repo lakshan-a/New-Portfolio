@@ -211,23 +211,23 @@ function singleMap() {
             single_map.setZoom(single_map.getZoom() - 1);
         });
     }
-    //
-    // var infowindow = new google.maps.InfoWindow({});
-    // var marker, count;
-    // for (count = 0; count < locations.length; count++) {
-    //     marker = new google.maps.Marker({
-    //         position: new google.maps.LatLng(locations[count][1], locations[count][2]),
-    //         map: single_map,
-    //         icon: markerIcon,
-    //         title: locations[count][0]
-    //     });
-    //     google.maps.event.addListener(marker, 'click', (function (marker, count) {
-    //         return function () {
-    //             infowindow.setContent(locations[count][0]);
-    //             infowindow.open(singleMap, marker);
-    //         }
-    //     })(marker, count));
-    // }
+
+    var infowindow = new google.maps.InfoWindow({});
+    var marker, count;
+    for (count = 0; count < locations.length; count++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+            map: single_map,
+            icon: markerIcon,
+            title: locations[count][0]
+        });
+        // google.maps.event.addListener(marker, 'click', (function (marker, count) {
+        //     return function () {
+        //         infowindow.setContent(locations[count][0]);
+        //         infowindow.open(singleMap, marker);
+        //     }
+        // })(marker, count));
+    }
 
 
 }
