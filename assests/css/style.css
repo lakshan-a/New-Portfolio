@@ -2543,87 +2543,87 @@ section.parallax-section.hero-section .section-title h2 {
 /*	font-size:26px;*/
 /*	color: #ADC7DD;*/
 /*}*/
-/*------ testimonilas------------------------------------------------*/
-/*.testimonilas-carousel-wrap:before {*/
-/*	content:'';*/
-/*	position:absolute;*/
-/*	top:50%;*/
-/*	left:0;*/
-/*	right:0;*/
-/*	height:1px;*/
-/*	border-top:1px  dotted;*/
-/*}*/
-/*.testi-item {*/
-/*	transition: all .3s ease-in-out;*/
-/*	transform :scale(0.9);*/
-/*}*/
-/*.testi-item:after {*/
-/*	position: absolute;*/
-/*	content: '\25CF\25CF\25CF';*/
-/*	width: 50px;*/
-/*	left: 50%;*/
-/*	bottom: 30px;*/
-/*	margin-left: -25px;*/
-/*	font-size: 9px;*/
-/*	letter-spacing: 4px;*/
-/*}*/
-/*.testimonilas-text {*/
-/*	padding: 75px 50px 75px;*/
-/*	overflow: hidden;*/
-/*	background: #fff;*/
-/*	border:1px solid #eee;*/
-/*	transition: all .3s ease-in-out;*/
-/*}*/
-/*.testimonilas-text:before, .testimonilas-text:after {*/
-/*	font-family: Font Awesome\ 5 Pro;*/
-/*	font-style: normal;*/
-/*	font-weight: normal;*/
-/*	text-decoration: inherit;*/
-/*	position: absolute;*/
-/*	opacity: .3;*/
-/*	font-size: 32px;*/
-/*	transition: all 400ms linear;*/
-/*}*/
-/*.testimonilas-text:after {*/
-/*	content: "\f10e";*/
-/*	bottom: 20px;*/
-/*	right: 25px;*/
-/*}*/
-/*.testimonilas-text:before {*/
-/*	content: "\f10e";*/
-/*	top: 20px;*/
-/*	left: 25px;*/
-/*}*/
-/*.testimonilas-text  h3 {*/
-/*	font-weight: 600;*/
-/*	font-family: 'Playfair Display', cursive;*/
-/*	font-size:18px;*/
-/*	padding-bottom:20px;*/
-/*}*/
-/*.testimonilas-carousel .swiper-slide{*/
-/*	padding:30px 0;*/
-/*}*/
-/*.testi-avatar {*/
-/*	position:absolute;*/
-/*	left:50%;*/
-/*	top:-30px;*/
-/*	width:90px;*/
-/*	height:90px;*/
-/*	margin-left:-45px;*/
-/*	z-index:20;*/
-/*}*/
-/*.testi-avatar:before {*/
-/*	content: '';*/
-/*	position: absolute;*/
-/*	border-radius: 100%;*/
-/*	left: -8px;*/
-/*	bottom: -8px;*/
-/*	right: -8px;*/
-/*	top: -8px;*/
-/*	border: 1px solid #eee;*/
-/*	z-index: 1;*/
-/*	background: #fff;*/
-/*}*/
+------ testimonilas------------------------------------------------
+.testimonilas-carousel-wrap:before {
+	content:'';
+	position:absolute;
+	top:50%;
+	left:0;
+	right:0;
+	height:1px;
+	border-top:1px  dotted;
+}
+.testi-item {
+	transition: all .3s ease-in-out;
+	transform :scale(0.9);
+}
+.testi-item:after {
+	position: absolute;
+	content: '\25CF\25CF\25CF';
+	width: 50px;
+	left: 50%;
+	bottom: 30px;
+	margin-left: -25px;
+	font-size: 9px;
+	letter-spacing: 4px;
+}
+.testimonilas-text {
+	padding: 75px 50px 75px;
+	overflow: hidden;
+	background: #fff;
+	border:1px solid #eee;
+	transition: all .3s ease-in-out;
+}
+.testimonilas-text:before, .testimonilas-text:after {
+	font-family: Font Awesome\ 5 Pro;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	opacity: .3;
+	font-size: 32px;
+	transition: all 400ms linear;
+}
+.testimonilas-text:after {
+	content: "\f10e";
+	bottom: 20px;
+	right: 25px;
+}
+.testimonilas-text:before {
+	content: "\f10e";
+	top: 20px;
+	left: 25px;
+}
+.testimonilas-text  h3 {
+	font-weight: 600;
+	font-family: 'Playfair Display', cursive;
+	font-size:18px;
+	padding-bottom:20px;
+}
+.testimonilas-carousel .swiper-slide{
+	padding:30px 0;
+}
+.testi-avatar {
+	position:absolute;
+	left:50%;
+	top:-30px;
+	width:90px;
+	height:90px;
+	margin-left:-45px;
+	z-index:20;
+}
+.testi-avatar:before {
+	content: '';
+	position: absolute;
+	border-radius: 100%;
+	left: -8px;
+	bottom: -8px;
+	right: -8px;
+	top: -8px;
+	border: 1px solid #eee;
+	z-index: 1;
+	background: #fff;
+}
 /*.testi-avatar img {*/
 /*	width:90px;*/
 /*	height:90px;*/
