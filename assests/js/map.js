@@ -128,17 +128,17 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "road.arterial",
-            //     "elementType": "geometry",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 18
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 18
+                    }
+                ]
+            },
             // {
             //     "featureType": "road.local",
             //     "elementType": "geometry",
