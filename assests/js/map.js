@@ -67,20 +67,20 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "administrative",
-            //     "elementType": "geometry.stroke",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 17
-            //         },
-            //         {
-            //             "weight": 1.2
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 17
+                    },
+                    {
+                        "weight": 1.2
+                    }
+                ]
+            },
             // {
             //     "featureType": "landscape",
             //     "elementType": "geometry",
