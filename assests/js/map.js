@@ -150,17 +150,17 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "transit",
-            //     "elementType": "geometry",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 19
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "transit",
+                "elementType": "geometry",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 19
+                    }
+                ]
+            },
             // {
             //     "featureType": "water",
             //     "elementType": "geometry",
