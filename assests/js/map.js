@@ -49,13 +49,13 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "all",
-            //     "elementType": "labels.icon",
-            //     "stylers": [{
-            //         "visibility": "off"
-            //     }]
-            // },
+            {
+                "featureType": "all",
+                "elementType": "labels.icon",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            },
             // {
             //     "featureType": "administrative",
             //     "elementType": "geometry.fill",
