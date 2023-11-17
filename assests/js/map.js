@@ -174,21 +174,21 @@ function singleMap() {
             }
         ]
     });
-    // var scrollEnabling = $('.scrollContorl');
-    // $(scrollEnabling).click(function (e) {
-    //     e.preventDefault();
-    //     $(this).toggleClass("enabledsroll");
-    //
-    //     if ($(this).is(".enabledsroll")) {
-    //         single_map.setOptions({
-    //             'scrollwheel': true
-    //         });
-    //     } else {
-    //         single_map.setOptions({
-    //             'scrollwheel': false
-    //         });
-    //     }
-    // });
+    var scrollEnabling = $('.scrollContorl');
+    $(scrollEnabling).click(function (e) {
+        e.preventDefault();
+        $(this).toggleClass("enabledsroll");
+
+        if ($(this).is(".enabledsroll")) {
+            single_map.setOptions({
+                'scrollwheel': true
+            });
+        } else {
+            single_map.setOptions({
+                'scrollwheel': false
+            });
+        }
+    });
     // var zoomControlDiv = document.createElement('div');
     // var zoomControl = new ZoomControl(zoomControlDiv, single_map);
     //
