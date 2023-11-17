@@ -3312,160 +3312,160 @@ section.parallax-section.hero-section .section-title h2 {
 .daterangepicker .calendar-table td, .daterangepicker .calendar-table th {
 	border-radius:0;
 }
-/*!*------map / contacts------------------------------------------------*!*/
-/*.map-container {*/
-/*	float:left;*/
-/*	width:100%;*/
-/*	position:relative;*/
-/*	overflow:hidden;*/
-/*}*/
-/*#singleMap    {*/
-/*	width:100%;*/
-/*	height:650px;*/
-/*	float:left;*/
-/*}*/
-/*.mapzoom-in  , .mapzoom-out , .scrollContorl{*/
-/*	position: absolute;*/
-/*	z-index:100;*/
-/*	cursor:pointer;*/
-/*	width:40px;*/
-/*	height:40px;*/
-/*	line-height:40px;*/
-/*	border-radius:50%;*/
-/*	right:22px;*/
-/*	bottom:70px;*/
-/*	-webkit-transform: translate3d(0,0,0);*/
-/*	background: #191919;*/
-/*}*/
-/*.mapzoom-out {*/
-/*	bottom:28px;*/
-/*}*/
-/*.scrollContorl {*/
-/*	bottom:140px;*/
-/*}*/
-/*.mapzoom-in:before, .mapzoom-out:before  , .scrollContorl:before{*/
-/*	font-family: Font Awesome\ 5 Pro;*/
-/*	content: "\f068";*/
-/*	font-size: 10px;*/
-/*	font-weight: 600;*/
-/*}*/
-/*.mapzoom-in:before {*/
-/*	content: "\f067";*/
-/*}*/
-/*.scrollContorl:before {*/
-/*	content: "\f09c";*/
-/*}*/
-/*.scrollContorl.enabledsroll:before {*/
-/*	content:'\f3c1';*/
-/*}*/
-/*.mapzoom-in:hover  , .mapzoom-out:hover , .scrollContorl:hover {*/
-/*	color:#fff;*/
-/*}*/
-/*.gm-style .gm-style-iw {*/
-/*	border-radius:0!important;*/
-/*	padding: 12px 20px 2px!important;*/
-/*}*/
-/*.contactform-wrap {*/
-/*	margin-top:40px;*/
-/*}*/
-/*.contactform-wrap .btn {*/
-/*	float:left;*/
-/*}*/
-/*.contactform-wrap .custom-form textarea {*/
-/*	min-height: 90px;*/
-/*}*/
-/*#reserv-message , #message2{*/
-/*	float:left;*/
-/*	width:100%;*/
-/*}*/
-/*.error_message , #success_page {*/
-/*	padding:15px 20px;*/
-/*	background:#f9f9f9;*/
-/*	float:left;*/
-/*	width:100%;*/
-/*	margin-bottom:20px;*/
-/*	font-size:12px;*/
-/*	font-family: 'Poppins', sans-serif;*/
-/*	font-weight:600;*/
-/*	border:1px dotted #ccc;*/
-/*}*/
-/*#success_page h1 {*/
-/*	font-size:20px;*/
-/*	padding-bottom:10px;*/
-/*	font-family: 'Playfair Display', cursive;*/
-/*}*/
-/*.map-view-wrap {*/
-/*	position: absolute;*/
-/*	z-index:211;*/
-/*	left:0;*/
-/*	width:100%;*/
-/*	height:1px;*/
-/*	top:0;*/
-/*}*/
-/*.map-view-wrap_item {*/
-/*	position:relative;*/
-/*	float:left;*/
-/*	width:350px;*/
-/*	background:#f9f9f9;*/
-/*	padding:25px 30px;*/
-/*	top:220px;*/
-/*}*/
-/*.map-view-wrap .container {*/
-/*	height:1px;*/
-/*}*/
-/*.contact-details {*/
-/*	padding:40px 30px 50px;*/
-/*	border:1px  dotted #ccc;*/
-/*	background:#fff;*/
-/*}*/
-/*.contact-details:after {*/
-/*	position: absolute;*/
-/*	content: '\25CF\25CF\25CF';*/
-/*	width: 50px;*/
-/*	left: 50%;*/
-/*	bottom: 40px;*/
-/*	margin-left: -25px;*/
-/*	font-size: 6px;*/
-/*	letter-spacing: 4px;*/
-/*}*/
-/*.contact-details h4 {*/
-/*	text-align:  center;*/
-/*	padding-bottom:20px;*/
-/*	color:#292929;*/
-/*	font-family: 'Playfair Display', cursive;*/
-/*	font-size:19px;*/
-/*	font-weight:500;*/
-/*	position:relative;*/
-/*}*/
-/*.contact-details li {*/
-/*	display:block;*/
-/*	margin-bottom:18px;*/
-/*	overflow:hidden;*/
-/*	white-space:nowrap;*/
-/*	text-align:  left;*/
-/*	font-family: 'Playfair Display', cursive;*/
-/*	font-size:13px;*/
-/*	font-weight:500;*/
-/*}*/
-/*.contact-details li i {*/
-/*	font-size:18px;*/
-/*	margin-right:10px;*/
-/*	width:18px;*/
-/*	float:left;*/
-/*}*/
-/*.contact-details li a {*/
-/*	font-weight:600;*/
-/*	color:#222;*/
-/*	padding-left:6px;*/
-/*	transition: all .2s ease-in-out;*/
-/*}*/
-/*.contact-details li a:hover {*/
-/*	color:#000;*/
-/*	text-decoration:underline;*/
-/*}*/
-/*.contact-details li:last-child {*/
-/*	margin-bottom:0;*/
-/*}*/
+/*------map / contacts------------------------------------------------*/
+.map-container {
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+#singleMap    {
+	width:100%;
+	height:650px;
+	float:left;
+}
+.mapzoom-in  , .mapzoom-out , .scrollContorl{
+	position: absolute;
+	z-index:100;
+	cursor:pointer;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	border-radius:50%;
+	right:22px;
+	bottom:70px;
+	-webkit-transform: translate3d(0,0,0);
+	background: #191919;
+}
+.mapzoom-out {
+	bottom:28px;
+}
+.scrollContorl {
+	bottom:140px;
+}
+.mapzoom-in:before, .mapzoom-out:before  , .scrollContorl:before{
+	font-family: Font Awesome\ 5 Pro;
+	content: "\f068";
+	font-size: 10px;
+	font-weight: 600;
+}
+.mapzoom-in:before {
+	content: "\f067";
+}
+.scrollContorl:before {
+	content: "\f09c";
+}
+.scrollContorl.enabledsroll:before {
+	content:'\f3c1';
+}
+.mapzoom-in:hover  , .mapzoom-out:hover , .scrollContorl:hover {
+	color:#fff;
+}
+.gm-style .gm-style-iw {
+	border-radius:0!important;
+	padding: 12px 20px 2px!important;
+}
+.contactform-wrap {
+	margin-top:40px;
+}
+.contactform-wrap .btn {
+	float:left;
+}
+.contactform-wrap .custom-form textarea {
+	min-height: 90px;
+}
+#reserv-message , #message2{
+	float:left;
+	width:100%;
+}
+.error_message , #success_page {
+	padding:15px 20px;
+	background:#f9f9f9;
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+	font-size:12px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:600;
+	border:1px dotted #ccc;
+}
+#success_page h1 {
+	font-size:20px;
+	padding-bottom:10px;
+	font-family: 'Playfair Display', cursive;
+}
+.map-view-wrap {
+	position: absolute;
+	z-index:211;
+	left:0;
+	width:100%;
+	height:1px;
+	top:0;
+}
+.map-view-wrap_item {
+	position:relative;
+	float:left;
+	width:350px;
+	background:#f9f9f9;
+	padding:25px 30px;
+	top:220px;
+}
+.map-view-wrap .container {
+	height:1px;
+}
+.contact-details {
+	padding:40px 30px 50px;
+	border:1px  dotted #ccc;
+	background:#fff;
+}
+.contact-details:after {
+	position: absolute;
+	content: '\25CF\25CF\25CF';
+	width: 50px;
+	left: 50%;
+	bottom: 40px;
+	margin-left: -25px;
+	font-size: 6px;
+	letter-spacing: 4px;
+}
+.contact-details h4 {
+	text-align:  center;
+	padding-bottom:20px;
+	color:#292929;
+	font-family: 'Playfair Display', cursive;
+	font-size:19px;
+	font-weight:500;
+	position:relative;
+}
+.contact-details li {
+	display:block;
+	margin-bottom:18px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-align:  left;
+	font-family: 'Playfair Display', cursive;
+	font-size:13px;
+	font-weight:500;
+}
+.contact-details li i {
+	font-size:18px;
+	margin-right:10px;
+	width:18px;
+	float:left;
+}
+.contact-details li a {
+	font-weight:600;
+	color:#222;
+	padding-left:6px;
+	transition: all .2s ease-in-out;
+}
+.contact-details li a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+.contact-details li:last-child {
+	margin-bottom:0;
+}
 /* ------Blog-------------------------------------------  */
 .post.fw-post h2 {
 	text-align: left;
