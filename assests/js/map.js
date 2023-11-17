@@ -207,9 +207,9 @@ function singleMap() {
         google.maps.event.addDomListener(zoomInButton, 'click', function () {
             single_map.setZoom(single_map.getZoom() + 1);
         });
-        // google.maps.event.addDomListener(zoomOutButton, 'click', function () {
-        //     single_map.setZoom(single_map.getZoom() - 1);
-        // });
+        google.maps.event.addDomListener(zoomOutButton, 'click', function () {
+            single_map.setZoom(single_map.getZoom() - 1);
+        });
     }
     //
     // var infowindow = new google.maps.InfoWindow({});
