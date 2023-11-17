@@ -103,17 +103,17 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "road.highway",
-            //     "elementType": "geometry.fill",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 17
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 17
+                    }
+                ]
+            },
             // {
             //     "featureType": "road.highway",
             //     "elementType": "geometry.stroke",
