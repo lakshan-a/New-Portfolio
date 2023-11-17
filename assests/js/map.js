@@ -189,28 +189,28 @@ function singleMap() {
             });
         }
     });
-    // var zoomControlDiv = document.createElement('div');
-    // var zoomControl = new ZoomControl(zoomControlDiv, single_map);
-    //
-    // function ZoomControl(controlDiv, single_map) {
-    //     zoomControlDiv.index = 1;
-    //     single_map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(zoomControlDiv);
-    //     controlDiv.style.padding = '5px';
-    //     var controlWrapper = document.createElement('div');
-    //     controlDiv.appendChild(controlWrapper);
-    //     var zoomInButton = document.createElement('div');
-    //     zoomInButton.className = "mapzoom-in";
-    //     controlWrapper.appendChild(zoomInButton);
-    //     var zoomOutButton = document.createElement('div');
-    //     zoomOutButton.className = "mapzoom-out";
-    //     controlWrapper.appendChild(zoomOutButton);
-    //     google.maps.event.addDomListener(zoomInButton, 'click', function () {
-    //         single_map.setZoom(single_map.getZoom() + 1);
-    //     });
-    //     google.maps.event.addDomListener(zoomOutButton, 'click', function () {
-    //         single_map.setZoom(single_map.getZoom() - 1);
-    //     });
-    // }
+    var zoomControlDiv = document.createElement('div');
+    var zoomControl = new ZoomControl(zoomControlDiv, single_map);
+
+    function ZoomControl(controlDiv, single_map) {
+        zoomControlDiv.index = 1;
+        single_map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(zoomControlDiv);
+        controlDiv.style.padding = '5px';
+        var controlWrapper = document.createElement('div');
+        controlDiv.appendChild(controlWrapper);
+        var zoomInButton = document.createElement('div');
+        zoomInButton.className = "mapzoom-in";
+        controlWrapper.appendChild(zoomInButton);
+        var zoomOutButton = document.createElement('div');
+        zoomOutButton.className = "mapzoom-out";
+        controlWrapper.appendChild(zoomOutButton);
+        google.maps.event.addDomListener(zoomInButton, 'click', function () {
+            single_map.setZoom(single_map.getZoom() + 1);
+        });
+        // google.maps.event.addDomListener(zoomOutButton, 'click', function () {
+        //     single_map.setZoom(single_map.getZoom() - 1);
+        // });
+    }
     //
     // var infowindow = new google.maps.InfoWindow({});
     // var marker, count;
