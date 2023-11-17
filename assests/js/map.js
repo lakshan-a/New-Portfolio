@@ -56,17 +56,17 @@ function singleMap() {
                     "visibility": "off"
                 }]
             },
-            // {
-            //     "featureType": "administrative",
-            //     "elementType": "geometry.fill",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 20
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 20
+                    }
+                ]
+            },
             // {
             //     "featureType": "administrative",
             //     "elementType": "geometry.stroke",
