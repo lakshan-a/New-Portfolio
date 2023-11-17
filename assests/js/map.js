@@ -81,17 +81,17 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "landscape",
-            //     "elementType": "geometry",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 20
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "landscape",
+                "elementType": "geometry",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 20
+                    }
+                ]
+            },
             // {
             //     "featureType": "poi",
             //     "elementType": "geometry",
