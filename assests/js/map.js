@@ -114,20 +114,20 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "road.highway",
-            //     "elementType": "geometry.stroke",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 29
-            //         },
-            //         {
-            //             "weight": 0.2
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 29
+                    },
+                    {
+                        "weight": 0.2
+                    }
+                ]
+            },
             // {
             //     "featureType": "road.arterial",
             //     "elementType": "geometry",
