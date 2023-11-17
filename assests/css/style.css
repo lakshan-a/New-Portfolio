@@ -710,8 +710,8 @@ blockquote p {
 	left: 0;
 	z-index: 1;
 	padding:10px 0;
-	background:#fff;
-	border:1px solid #eee;
+	background: #212121;
+	border:1px solid #363636;
 	transition: all .2s ease-in-out;
 }
 .nav-holder nav li:hover > ul {
@@ -1495,7 +1495,7 @@ section.parallax-section.hero-section .section-title h2 {
 	border-radius:100%;
 }
 .bold-separator.bold-separator_dark span{
-	background:#292929;
+	background: #ffffff;
 }
 .bold-separator.bold-separator_dark {
 	margin:15px  auto 30px;
@@ -2543,7 +2543,7 @@ section.parallax-section.hero-section .section-title h2 {
 /*	font-size:26px;*/
 /*	color: #ADC7DD;*/
 /*}*/
------- testimonilas------------------------------------------------
+/*------ testimonilas------------------------------------------------*/
 .testimonilas-carousel-wrap:before {
 	content:'';
 	position:absolute;
@@ -2570,8 +2570,8 @@ section.parallax-section.hero-section .section-title h2 {
 .testimonilas-text {
 	padding: 75px 50px 75px;
 	overflow: hidden;
-	background: #fff;
-	border:1px solid #eee;
+	background: #333333;
+	border:1px solid #666666;
 	transition: all .3s ease-in-out;
 }
 .testimonilas-text:before, .testimonilas-text:after {
@@ -2601,7 +2601,7 @@ section.parallax-section.hero-section .section-title h2 {
 	padding-bottom:20px;
 }
 .testimonilas-carousel .swiper-slide{
-	padding:30px 0;
+	padding:40px 0;
 }
 .testi-avatar {
 	position:absolute;
@@ -2615,28 +2615,30 @@ section.parallax-section.hero-section .section-title h2 {
 .testi-avatar:before {
 	content: '';
 	position: absolute;
-	border-radius: 100%;
-	left: -8px;
-	bottom: -8px;
-	right: -8px;
-	top: -8px;
-	border: 1px solid #eee;
+	border-radius: 4%;
+	left: -40px;
+	bottom: -9px;
+	right: -40px;
+	top: -3px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	z-index: 1;
-	background: #fff;
+	background: #333333;
 }
 .testi-avatar img {
-	width:90px;
-	height:90px;
-	float:left;
-	border-radius:100%;
-	position:relative;
-	z-index:2;
+	width: 160px;
+	height: 92px;
+	left: -35px;
+	bottom: -2px;
+	float: left;
+	border-radius: 4%;
+	position: relative;
+	z-index: 2;
 }
 .swiper-slide-active .testimonilas-text  {
-	background: #f9f9f9;
+	background: #292929;
 }
 .testimonilas-text p{
-	color: #878C9F;
+	color: #ffffff;
 	font-size: 14px;
 	font-family: 'Playfair Display', cursive;
 	font-style: italic;
@@ -2722,7 +2724,7 @@ section.parallax-section.hero-section .section-title h2 {
 	margin:0 8px !important;
 }
 .ss-slider-pagination .swiper-pagination-bullet , .hero-slider-wrap_pagination .swiper-pagination-bullet  {
-	background:#fff;
+	background: #fac921;
 	margin:0 12px !important;
 }
 .ss-slider-pagination .swiper-pagination-bullet:hover {
@@ -2915,11 +2917,11 @@ section.parallax-section.hero-section .section-title h2 {
 	transform: scale(1.15);
 }
 .gallery-filters {
-	border: 1px solid #eee;
+	border: 1px solid #ffffff33;
 	display: inline-table;
 	margin-bottom:60px;
 	padding:20px;
-	background:#f9f9f9;
+	background: #303030;
 
 	position: relative;
 }
@@ -3256,8 +3258,8 @@ section.parallax-section.hero-section .section-title h2 {
 .custom-form input[type=password] {
 	float: left;
 	border: none;
-	border: 1px solid #e1e1e1;
-	background: #f9f9f9;
+	border: 1px solid #ffffff1a;
+	background: rgba(255, 255, 255, 0.1);
 	width: 100%;
 	padding: 15px 20px;
 	color: #000;
@@ -3285,7 +3287,7 @@ section.parallax-section.hero-section .section-title h2 {
 	resize: vertical ;
 	padding: 15px 20px;
 	-webkit-appearance: none;
-	border: 1px solid #e1e1e1;
+	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .custom-form input {
 	margin-bottom: 20px;
@@ -3406,7 +3408,7 @@ section.parallax-section.hero-section .section-title h2 {
 	position:relative;
 	float:left;
 	width:350px;
-	background:#f9f9f9;
+	background: #212121;
 	padding:25px 30px;
 	top:220px;
 }
@@ -3415,8 +3417,8 @@ section.parallax-section.hero-section .section-title h2 {
 }
 .contact-details {
 	padding:40px 30px 50px;
-	border:1px  dotted #ccc;
-	background:#fff;
+	border:1px  dotted #fac921;
+	background:#212121;
 }
 .contact-details:after {
 	position: absolute;
@@ -3431,7 +3433,7 @@ section.parallax-section.hero-section .section-title h2 {
 .contact-details h4 {
 	text-align:  center;
 	padding-bottom:20px;
-	color:#292929;
+	color: #fac921;
 	font-family: 'Playfair Display', cursive;
 	font-size:19px;
 	font-weight:500;
@@ -3455,12 +3457,12 @@ section.parallax-section.hero-section .section-title h2 {
 }
 .contact-details li a {
 	font-weight:600;
-	color:#222;
+	color: #ffffff;
 	padding-left:6px;
 	transition: all .2s ease-in-out;
 }
 .contact-details li a:hover {
-	color:#000;
+	color: #fac921;
 	text-decoration:underline;
 }
 .contact-details li:last-child {
@@ -4603,7 +4605,7 @@ section.parallax-section.hero-section .section-title h2 {
 		width: 100%;
 		height: auto;
 		float:left;
-		background:#fff;
+		background: #212121;
 	}
 	.map-view-wrap .container {
 		height:auto;
