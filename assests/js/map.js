@@ -221,12 +221,12 @@ function singleMap() {
             icon: markerIcon,
             title: locations[count][0]
         });
-        // google.maps.event.addListener(marker, 'click', (function (marker, count) {
-        //     return function () {
-        //         infowindow.setContent(locations[count][0]);
-        //         infowindow.open(singleMap, marker);
-        //     }
-        // })(marker, count));
+        google.maps.event.addListener(marker, 'click', (function (marker, count) {
+            return function () {
+                infowindow.setContent(locations[count][0]);
+                infowindow.open(singleMap, marker);
+            }
+        })(marker, count));
     }
 
 
