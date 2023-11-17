@@ -92,17 +92,17 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "poi",
-            //     "elementType": "geometry",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 21
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 21
+                    }
+                ]
+            },
             // {
             //     "featureType": "road.highway",
             //     "elementType": "geometry.fill",
