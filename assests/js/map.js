@@ -161,16 +161,16 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "water",
-            //     "elementType": "geometry",
-            //     "stylers": [{
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 17
-            //         }
-            //     ]
+            {
+                "featureType": "water",
+                "elementType": "geometry",
+                "stylers": [{
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 17
+                    }
+                ]
             }
         ]
     });
