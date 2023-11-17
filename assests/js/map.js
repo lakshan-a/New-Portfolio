@@ -35,20 +35,20 @@ function singleMap() {
                     }
                 ]
             },
-            // {
-            //     "featureType": "all",
-            //     "elementType": "labels.text.stroke",
-            //     "stylers": [{
-            //             "visibility": "on"
-            //         },
-            //         {
-            //             "color": "#000000"
-            //         },
-            //         {
-            //             "lightness": 16
-            //         }
-            //     ]
-            // },
+            {
+                "featureType": "all",
+                "elementType": "labels.text.stroke",
+                "stylers": [{
+                        "visibility": "on"
+                    },
+                    {
+                        "color": "#000000"
+                    },
+                    {
+                        "lightness": 16
+                    }
+                ]
+            },
             // {
             //     "featureType": "all",
             //     "elementType": "labels.icon",
